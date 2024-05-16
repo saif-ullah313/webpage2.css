@@ -1,0 +1,34 @@
+
+
+.Navigation {
+    display: flex;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    justify-content: center;
+    width: 100%;
+    background-color:black;
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    position: fixed;
+    
+    
+}
+.Navigation li {
+    float:left;
+}
+.Navigation li a:hover {
+    background-color: brown;
+    color: white;
+    
+}
+.Navigation :active{
+    background-color:black ;
+}
+.Navigation a{
+    color:white;
+    display: inline-block;
+    padding: 10px;
+    font-size: 1vw;
+}
+
